@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "MeetPulse is a dynamic web application designed for seamless communication and collaboration. Leveraging the MERN stack, MeetPulse offers a comprehensive suite of features including:Real-Time Chat: Engage in instant messaging with individuals or groups.Video Calls & Meetings: Host high-quality video calls and virtual meetings with ease.Screen Sharing: Share your screen effortlessly to enhance presentations and collaborative work.With MeetPulse, users can connect and collaborate effectively, making it an ideal solution for both professional and personal communication needs.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
+    "prod": "pm2 src/app.js"
+  },
+  "author": "Pratibha Kumari",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "http-status": "^1.7.3",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2",
+    "socket.io": "^4.7.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PratibhaK11/meetPulse.git"
+  },
+  "keywords": [
+    "Video",
+    "Call",
+    "Meetings",
+    "Chat",
+    "Screen",
+    "Share"
+  ],
+  "bugs": {
+    "url": "https://github.com/PratibhaK11/meetPulse/issues"
+  },
+  "homepage": "https://github.com/PratibhaK11/meetPulse#readme"
+}
