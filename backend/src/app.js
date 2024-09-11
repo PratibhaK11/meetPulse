@@ -24,7 +24,7 @@ app.use("/api/v1/users", userRoutes);
 // Database connection and server start function
 const start = async () => {
     try {
-        const connectionDb = await mongoose.connect("mongodb://127.0.0.1:27017/Zoom", {
+        const connectionDb = await mongoose.connect(process.env.MONGODB_URI, {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
