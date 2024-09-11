@@ -1,6 +1,6 @@
 let IS_PROD = true;
 const server = IS_PROD ?
-    "http://localhost:8000" :
+    "https://meetpulse.onrender.com" :
 
     "http://localhost:3000"
 
